@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123c60">
+  <meta name="description" content="천안시 민원서비스 안내 — 아동부터 어르신까지 쉽고 편리한 민원 안내">
+  <title>천안시 민원서비스 | 웹 프레젠테이션</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#presentation">본문으로 이동</a>
+  <header class="topbar">
+    <a class="brand" href="#slide-1" aria-label="천안시 민원서비스 첫 슬라이드로 이동"><span class="brand-mark"></span><span>CHEONAN <span class="brand-dot">·</span> CIVIC SERVICES</span></a>
+    <nav class="desktop-nav" aria-label="슬라이드 목차">
+      <button type="button" data-go="0" class="nav-item active">소개</button>
+      <button type="button" data-go="1" class="nav-item">추진 배경</button>
+      <button type="button" data-go="2" class="nav-item">지원내용</button>
+      <button type="button" data-go="3" class="nav-item">생애주기</button>
+      <button type="button" data-go="4" class="nav-item">기대효과</button>
+      <button type="button" data-go="5" class="nav-item">마무리</button>
+    </nav>
+    <div class="header-actions"><span class="header-index" id="headerIndex">01 / 06</span><button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-label="목차 열기" aria-controls="mobileNav"><span></span><span></span><span></span></button></div>
+  </header>
+  <nav class="mobile-nav" id="mobileNav" aria-label="모바일 슬라이드 목차" hidden>
+    <button data-go="0">01 소개</button><button data-go="1">02 추진 배경</button><button data-go="2">03 지원내용</button><button data-go="3">04 생애주기</button><button data-go="4">05 기대효과</button><button data-go="5">06 마무리</button>
+  </nav>
+  <main id="presentation" class="presentation" aria-live="off">
+    <section id="slide-1" class="slide cover current" data-title="소개" aria-label="슬라이드 1: 천안시 민원서비스">
+      <div class="cover-copy enter"><div class="eyebrow">CHEONAN CIVIC SERVICES</div><h1>천안시<br>민원서비스</h1><p class="cover-lead">시민의 오늘을 돕고,<br>내일의 가능성을 잇습니다</p><div class="cover-rule"></div><p class="cover-sub">아동부터 어르신까지 <span>·</span> 쉽고 편리한 민원 안내</p><div class="cover-footer">CITIZEN FIRST, BETTER TOMORROW</div></div>
+      <div class="cover-visual"><img src="assets/civic-services.png" alt="민원 안내 키오스크를 이용하는 아동과 다양한 세대의 시민들"></div>
+      <span class="cover-side-number">01 — 06</span>
+    </section>
+    <section id="slide-2" class="slide standard" data-title="추진 배경" aria-label="슬라이드 2: 정책 추진 배경">
+      <div class="slide-inner"><div class="section-header enter"><div class="eyebrow">CHEONAN · CIVIC SERVICES <span> / POLICY BACKGROUND</span></div><h2>정책 추진 배경</h2><p class="subtitle">시민의 삶에 가까운 민원 접근이 필요합니다</p></div>
+        <div class="background-grid"><div class="statement-panel enter"><p>생활 속 지원정보는 다양하지만<br><strong>찾고 이해하는 과정은 복잡합니다.</strong></p><div class="chips"><span>필요한 정보</span><span>쉬운 접근</span><span>맞춤 안내</span></div></div><figure class="photo-panel enter delay-1"><img src="assets/civic-services.png" alt="시민이 민원 정보 키오스크를 살펴보는 모습"></figure></div>
+      </div><div class="slide-footer"><span>CHEONAN CIVIC SERVICES</span><span>02 / 06</span></div>
+    </section>
+    <section id="slide-3" class="slide standard" data-title="지원내용" aria-label="슬라이드 3: 주요 지원내용">
+      <div class="slide-inner"><div class="section-header enter"><div class="eyebrow">CHEONAN · CIVIC SERVICES <span> / SUPPORT AREAS</span></div><h2>주요 지원내용</h2><p class="subtitle">생활에 필요한 지원을 한눈에 안내합니다</p></div>
+      <div class="support-grid">
+        <article class="support-card enter" style="--delay:0ms"><span class="card-number">01</span><span class="support-icon" aria-hidden="true">◉</span><h3>취업</h3><p>일자리 · 진로 안내</p></article>
+        <article class="support-card enter" style="--delay:85ms"><span class="card-number">02</span><span class="support-icon" aria-hidden="true">✦</span><h3>창업</h3><p>창업 준비 정보</p></article>
+        <article class="support-card enter" style="--delay:170ms"><span class="card-number">03</span><span class="support-icon" aria-hidden="true">⌂</span><h3>주거</h3><p>주거 지원 안내</p></article>
+        <article class="support-card enter" style="--delay:255ms"><span class="card-number">04</span><span class="support-icon" aria-hidden="true">▤</span><h3>교육</h3><p>배움 · 성장 기회</p></article>
+        <article class="support-card enter" style="--delay:340ms"><span class="card-number">05</span><span class="support-icon" aria-hidden="true">♡</span><h3>복지</h3><p>생활 · 돌봄 정보</p></article>
+      </div><p class="footnote enter">※ 구체적인 사업명 · 대상 · 지원 기준은 개별 사업 공고 확인 필요</p></div><div class="slide-footer"><span>CHEONAN CIVIC SERVICES</span><span>03 / 06</span></div>
+    </section>
+    <section id="slide-4" class="slide standard" data-title="생애주기" aria-label="슬라이드 4: 생애주기별 민원인 혜택">
+      <div class="slide-inner"><div class="section-header enter"><div class="eyebrow">CHEONAN · CIVIC SERVICES <span> / LIFE STAGES</span></div><h2>생애주기별 민원인 혜택</h2><p class="subtitle">아동부터 어르신까지, 필요한 지원을 연결합니다</p></div>
+      <div class="life-grid"><article class="life-card enter"><span class="life-circle">01</span><h3>아동 · 청소년</h3><p>보육 · 교육 · 돌봄</p></article><article class="life-card enter" style="--delay:90ms"><span class="life-circle">02</span><h3>청년</h3><p>취업 · 창업 · 주거</p></article><article class="life-card enter" style="--delay:180ms"><span class="life-circle">03</span><h3>중장년</h3><p>일자리 · 생활 지원</p></article><article class="life-card enter" style="--delay:270ms"><span class="life-circle">04</span><h3>어르신</h3><p>복지 · 돌봄 · 편의</p></article></div>
+      <div class="life-photo enter"><img src="assets/civic-services.png" alt="아동과 청년, 중장년, 어르신이 함께 민원서비스를 이용하는 모습"><p>모든 세대에게 이어지는 <strong>시민 중심 민원 안내</strong></p></div></div><div class="slide-footer"><span>CHEONAN CIVIC SERVICES</span><span>04 / 06</span></div>
+    </section>
+    <section id="slide-5" class="slide standard" data-title="기대효과" aria-label="슬라이드 5: 기대효과">
+      <div class="slide-inner"><div class="section-header enter"><div class="eyebrow">CHEONAN · CIVIC SERVICES <span> / EXPECTED IMPACT</span></div><h2>기대효과</h2><p class="subtitle">시민 편의와 행정서비스의 신뢰를 높입니다</p></div>
+      <div class="impact-grid"><article class="impact-card enter"><span class="impact-no">01</span><div class="impact-symbol" aria-hidden="true">↗</div><h3>접근성 향상</h3><p>필요한 정보를 쉽게 확인</p></article><article class="impact-card enter" style="--delay:110ms"><span class="impact-no">02</span><div class="impact-symbol" aria-hidden="true">◎</div><h3>맞춤형 안내</h3><p>생애주기에 따른 정보 연결</p></article><article class="impact-card enter" style="--delay:220ms"><span class="impact-no">03</span><div class="impact-symbol" aria-hidden="true">✓</div><h3>행정 신뢰 강화</h3><p>이해하기 쉬운 서비스 경험</p></article></div><p class="footnote enter">기대효과는 추진 방향에 따른 정성적 전망이며, 정량 성과수치는 제시하지 않았습니다.</p>
+      </div><div class="slide-footer"><span>CHEONAN CIVIC SERVICES</span><span>05 / 06</span></div>
+    </section>
+    <section id="slide-6" class="slide standard closing" data-title="마무리" aria-label="슬라이드 6: 마무리 메시지 및 홍보영상">
+      <div class="slide-inner"><div class="section-header enter"><div class="eyebrow">CHEONAN · CIVIC SERVICES <span> / THE NEXT STEP</span></div><h2>마무리 메시지</h2><p class="subtitle">민원은 편리하게, 미래는 희망차게</p></div>
+      <div class="closing-grid"><div class="closing-copy enter"><h3>모든 세대가 쉽고 편리하게<br>이용하는 <em>민원서비스</em></h3><div class="closing-rule"></div><p>시민의 일상에 필요한 정보를 연결하고<br>더 나은 민원 경험을 만들어갑니다.</p></div><div class="video-wrap enter delay-1"><video id="promoVideo" controls playsinline preload="metadata" poster="assets/civic-services.png" aria-label="천안시 민원서비스 10초 홍보영상"><source src="assets/civic-promo.mp4" type="video/mp4">브라우저에서 영상을 지원하지 않습니다.</video><div class="video-caption"><span class="play-dot">▶</span> 10초 홍보영상 <span class="video-hint">재생 버튼으로 시청</span></div></div></div></div><div class="slide-footer"><span>CHEONAN CIVIC SERVICES</span><span>06 / 06</span></div>
+    </section>
+  </main>
+  <div class="controls" aria-label="슬라이드 이동"><button id="prevBtn" type="button" aria-label="이전 슬라이드"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button><span id="slideCounter" aria-label="현재 슬라이드">01 <span>/ 06</span></span><button id="nextBtn" type="button" aria-label="다음 슬라이드"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button></div>
+  <div class="progress" aria-hidden="true"><div id="progressFill"></div></div>
+  <div class="key-help">← → 키 또는 스크롤로 이동</div>
+  <script src="script.js" defer></script>
+</body>
+</html>
